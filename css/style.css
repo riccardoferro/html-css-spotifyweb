@@ -14,7 +14,7 @@
 /*********** main side of the webpage  ***********/
 
 .top-main-side {
-  height: 85%;
+  height: 90%;
   flex-direction: row;
 }
 
@@ -85,7 +85,7 @@
 /*********** BOTTOM MAIN SIDE of the wepage where is situated the play or stop of the music  ***********/
 
 .bottom-main-side {
-  height: 15%;
+  height: 10%;
 }
 
 /******** UTILITY(background color ecc..) *******/
