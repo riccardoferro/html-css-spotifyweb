@@ -18,17 +18,8 @@
   flex-direction: row;
 }
 
-/* custom spotify logo  */
-.spotify-logo {
-  width: 100px;
-  margin: 10px 0px 10px 0px;
-}
+/********* nav bar section  *********/
 
-/* dimension and position of the nav-bar's elements */
-.DimSvgNav {
-  width: 20px;
-  margin-right: 5px;
-}
 /* setting space between item of nav bar  */
 .nav-bar {
   justify-content: space-between;
@@ -54,6 +45,18 @@
   margin: 10px 0;
 }
 
+/* custom spotify logo  */
+.spotify-logo {
+  width: 100px;
+  margin: 10px 0px 10px 0px;
+}
+
+/* dimension and position of the nav-bar's elements */
+.DimSvgNav {
+  width: 20px;
+  margin-right: 5px;
+}
+
 /* icon plus square beside 'crea playlist'  */
 .fa-plus-square {
   color: grey;
@@ -77,7 +80,9 @@
   border-bottom: 1px solid grey;
 }
 
-/*********** bottom main side of the wepage where is situated the play or stop of the music  ***********/
+/********* fine nav bar section  *********/
+
+/*********** BOTTOM MAIN SIDE of the wepage where is situated the play or stop of the music  ***********/
 
 .bottom-main-side {
   height: 15%;
@@ -98,6 +103,10 @@
 /* display none  */
 .d-none {
   display: none;
+}
+
+.d-inlineb {
+  display: inline-block;
 }
 
 /* color white  */
