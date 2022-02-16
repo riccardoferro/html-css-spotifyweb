@@ -45,6 +45,12 @@
   margin: 10px 0;
 }
 
+.overflow-plyst ul {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
 /* custom spotify logo  */
 .spotify-logo {
   width: 100px;
