@@ -3,3 +3,23 @@
     overflow-y: auto;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .spotify-logo {
+    background-image: url(../img/logo-small.svg);
+    height: 20px;
+    margin: 10px 0px 10px 0px;
+    background-repeat: no-repeat;
+  }
+
+  span,
+  h6,
+  li > span,
+  .fa-plus-square {
+    display: none;
+  }
+
+  #install-app {
+    border: none;
+  }
+}
