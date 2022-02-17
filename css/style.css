@@ -89,10 +89,39 @@
 
 /********* fine nav bar section  *********/
 
+/****** TOP-SIDE of the RIGHT SIDE OF THE WEB PAGE******/
+
+.top-side-r {
+  height: 10%;
+  width: 100%;
+  background-color: hsl(222deg 38% 5%);
+  position: fixed;
+}
+/* button upgrade  */
+.upgrade {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  right: 5px;
+  font-weight: 600;
+}
+
+/****** finish TOP-SIDE of the RIGHT SIDE OF THE WEB PAGE******/
+
+/*********** FINISH TOP MAIN SIDE OF THE WEB PAGE ***********/
 /*********** BOTTOM MAIN SIDE of the wepage where is situated the play or stop of the music  ***********/
 
 .bottom-main-side {
   height: 10%;
+  background-color: hsl(0deg 0% 16%);
+}
+
+.bottom-main-side > div {
+  height: 100%;
+  width: calc(100% / 3);
 }
 
 /******** UTILITY(background color ecc..) *******/
@@ -135,6 +164,10 @@
   font-size: 0.6rem;
 }
 
+.rem0-5 {
+  font-size: 0.5rem;
+}
+
 /* width 12 px  */
 .w12px {
   width: 12px;
@@ -167,16 +200,17 @@
   border: 1px solid white;
   height: 100%;
   width: 85%;
+  position: relative;
 }
 
 .debug .top-side-r {
   border: 1px solid yellow;
-  width: 100%;
-  height: 20%;
 }
 
 .debug .center-side-r {
   border: 1px solid green;
   width: 100%;
-  height: 80%;
+  height: 90%;
+  position: absolute;
+  top: 10%;
 }
