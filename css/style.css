@@ -85,7 +85,7 @@
   border-bottom: 1px solid grey;
 }
 
-/********* fine nav bar section  *********/
+/********* end nav bar section  *********/
 
 /****** TOP-SIDE of the RIGHT SIDE OF THE WEB PAGE******/
 
@@ -95,6 +95,7 @@
   background-color: hsl(222deg 38% 5%);
   position: fixed;
 }
+
 /* button upgrade  */
 .upgrade {
   border: 1px solid white;
@@ -107,20 +108,25 @@
   font-weight: 600;
 }
 
-/****** finish TOP-SIDE of the RIGHT SIDE OF THE WEB PAGE******/
-
 /*********** FINISH TOP MAIN SIDE OF THE WEB PAGE ***********/
+
 /*********** BOTTOM MAIN SIDE of the wepage where is situated the play or stop of the music  ***********/
+
+/* size of the section bottom main side  */
 
 .bottom-main-side {
   height: 10%;
   background-color: hsl(0deg 0% 16%);
 }
 
+/* size's div of the bottom main side, divide in three div  */
+
 .bottom-main-side > div {
   height: 100%;
   min-width: calc(100% / 3);
 }
+
+/* start side of the bottom  */
 
 .start-side {
   align-items: center;
@@ -135,6 +141,10 @@
   margin-right: 20px;
 }
 
+/* / start side of the bottom  */
+
+/* custom center side of the bottom  */
+
 .center-side {
   justify-content: center;
   align-items: center;
@@ -145,6 +155,7 @@
 .minute-song {
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .control-song {
@@ -158,14 +169,31 @@
   padding: 5px;
 }
 
-.minute-song {
-  width: 100%;
-}
 .bar-minute {
   border-radius: 5px;
   height: 30%;
   width: 80%;
 }
+
+/* / custom center side of the bottom  */
+
+/* end side of the bottom  */
+
+.end-side {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar-volume {
+  width: 20%;
+  border-radius: 5px;
+  height: 5%;
+  margin-right: 10px;
+}
+
+/* / end side of the bottom  */
+
 /******** UTILITY(background color ecc..) *******/
 
 /* display flex  */
