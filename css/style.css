@@ -30,6 +30,7 @@
   flex-direction: column;
   height: 100%;
   font-weight: 800;
+  width: 170px;
 }
 
 .nav-bar > * {
@@ -97,11 +98,18 @@
 
 /****** TOP-SIDE of the RIGHT SIDE OF THE WEB PAGE******/
 
+.right-side {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .top-side-r {
   height: 10%;
   width: 100%;
   background-color: hsl(222deg 38% 5%);
   position: fixed;
+  opacity: 0.8;
 }
 
 /* button upgrade  */
@@ -120,10 +128,43 @@
 /****** here we have the gallery of the all album with other stuff  ******/
 
 .center-side-r {
-  width: 100%;
-  height: 90%;
-  position: absolute;
-  top: 10%;
+  color: white;
+
+  height: 100%;
+  padding-top: 80px;
+  background-color: hsl(219deg 26% 11%);
+}
+
+.exploring-bar {
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.center-side-r li {
+  list-style-type: none;
+  color: grey;
+  font-size: 0.6rem;
+  font-weight: 800;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.history-bar img {
+  height: 125px;
+}
+
+.history-bar {
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.song {
+  display: flex;
+  width: 125px;
+  align-items: center;
+  flex-direction: column;
 }
 
 /************** END CENTER-SIDE-R of the RIGHT SIDE of the web page *************/
@@ -307,25 +348,23 @@
   border: 1px solid pink;
 } */
 
-.debug .right-side {
+/* .debug .right-side {
   border: 1px solid white;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
+} */
 
-.debug .top-side-r {
+/* .debug .top-side-r {
   border: 1px solid yellow;
-}
+} */
 
-.debug .center-side-r {
+/* .debug .center-side-r {
   border: 1px solid green;
-}
+} */
 
-.debug .exploring-bar {
+/* .debug .exploring-bar {
   border: 1px solid red;
-}
+} */
 
-.debug .hystory-bar {
+.debug .history-bar {
   border: 1px solid blue;
+  color: white;
 }
